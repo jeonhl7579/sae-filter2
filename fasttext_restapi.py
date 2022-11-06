@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from flask import Flask, request, make_response, jsonify, render_template, redirect, url_for
 from flask_cors import CORS
 from prediction import find, change_word, sentiment_predict
