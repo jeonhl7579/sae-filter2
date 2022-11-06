@@ -1,0 +1,11 @@
+Flask
+Flask-Cors==3.0.10
+gensim
+keras==2.6.0
+jpype1
+konlpy==0.6.0
+pandas 
+requests 
+tensorflow-cpu
+gunicorn
+flask_sqlalchemy
