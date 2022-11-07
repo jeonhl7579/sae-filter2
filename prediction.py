@@ -60,7 +60,7 @@ def change_word2(s):
 def find(sentence):
     #model_fname = 'C:\\Users\\tpgus\\fasttext_api\\data\\mecab\\fasttext_mecab'
     model_fname = './data/mecab/fasttext_mecab'
-    model = FastText.load(model_fname)
+    model = FastText.load(model_fname, unicode_errors="replace")
     model_dict = {}
 
     pre_stn = change_word2(sentence)
